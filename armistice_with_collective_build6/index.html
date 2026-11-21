@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#030814">
+  <title>Independence of Selfhood | Group Armistice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="logo" href="index.html">Group Armistice</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="dialectic.html">Game</a>
+        <a href="experience.html">Experience</a>
+        <a href="journals.html">Journals</a>
+        <a href="builds.html">Builds</a>
+        <a href="members.html">Members</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">THE STUDY OF SELFHOOD · HONORS 241</div>
+          <h1 class="home-title">Independence<br><span style="color:var(--orange)">of selfhood.</span></h1>
+          <p><span class="german-label">Freedom · Recognition · Identity</span>Who writes the story of a conscious mind? Explore freedom, recognition, identity, and memory through Hegel and <em>Westworld</em>.</p>
+          <div class="actions">
+            <a class="btn" href="experience.html">Begin the experiment →</a>
+            <a class="btn secondary" href="journals.html">Enter the memory vault ↗</a>
+          </div>
+        </div>
+
+        <!-- ONLY THE PORTRAIT OF HEGEL APPEARS ON THE HOMEPAGE -->
+        <figure class="hegel-hero-frame">
+          <img src="assets/hegel-portrait.jpg" alt="Portrait of Georg Wilhelm Friedrich Hegel">
+          <figcaption>G. W. F. Hegel · 1770–1831</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="wrap">
+        <div class="eyebrow">CHOOSE YOUR ENTRY POINT</div>
+        <h2>Six minds. One question.</h2>
+        <div class="grid">
+          <a class="tile" href="dialectic.html">
+            <span class="tag">00 / PLAYABLE DIALECTIC</span>
+            <h3>The recognition game</h3>
+            <p>Enter a struggle for recognition. Your choices reshape power, labor, and independence.</p>
+            <span class="tag">PLAY →</span>
+          </a>
+          <a class="tile" href="experience.html">
+            <span class="tag">01 / INTERACTIVE</span>
+            <h3>The experiment</h3>
+            <p>Enter the simulation, confront a choice, and trace the stages of consciousness.</p>
+            <span class="tag">ENTER →</span>
+          </a>
+          <a class="tile" href="journals.html">
+            <span class="tag">02 / PERSONAL</span>
+            <h3>The journals</h3>
+            <p>Read individual reflections on selfhood, perception, and philosophical change.</p>
+            <span class="tag">EXPLORE →</span>
+          </a>
+          <a class="tile" href="builds.html">
+            <span class="tag">03 / COLLABORATIVE</span>
+            <h3>The builds</h3>
+            <p>Follow the team's evolving arguments and connections between Hegel and Westworld.</p>
+            <span class="tag">EXPLORE →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="wrap">
+        <div class="eyebrow">ILLUSTRATIONS FROM THE ORIGINAL PROJECT</div>
+        <h2>Images of power and recognition</h2>
+        <div class="historical-gallery">
+          <figure class="figure-single">
+            <img src="assets/slavemaster.png" alt="Figure II, original master and slave dialectic artwork from the project">
+            <figcaption>Figure II — The struggle for recognition</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="wrap feature-layout">
+        <div>
+          <div class="eyebrow">THE PROJECT</div>
+          <h2>What does it mean to be free?</h2>
+          <figure class="freedom-figure">
+            <img src="assets/crown.png" alt="Figure I — Original crown illustration from the project">
+            <figcaption>Figure I</figcaption>
+          </figure>
+          <p>In <em>Westworld</em>, the hosts inhabit stories written for them. In Hegel's <em>Phenomenology of Spirit</em>, self-consciousness develops through encounters with others, conflict, and recognition. Armistice explores where these worlds collide.</p>
+          <a class="btn" href="members.html">Meet the team →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="mono">GROUP ARMISTICE / HONORS 241 / FALL 2026</span>
+      <span class="mono">THE QUESTION REMAINS OPEN.</span>
+    </div>
+  </footer>
+
+  <!-- INTRO OVERLAY: ONLY THE SPINNING WHEEL (REMOVED ONCE COMPLETE) -->
+  <div id="portal-overlay" class="wheel-intro" aria-label="Spinning antique wheel intro">
+    <div class="wheel-scene">
+      <div class="wheel" aria-hidden="true"></div>
+    </div>
+    <div class="intro-label">THE WHEEL OF HISTORY · INDEPENDENCE OF SELFHOOD</div>
+    <button class="skip" id="skip-intro">Enter the study →</button>
+  </div>
+
+  <div class="sound-control" role="group" aria-label="Soundtrack controls">
+    <button id="sound-toggle" type="button" aria-pressed="false">♫ ENABLE AUDIO</button>
+    <span id="sound-status">Soundtrack not installed · <label for="sound-file">load authorized audio</label><input id="sound-file" type="file" accept="audio/*"></span>
+  </div>
+
+  <script src="sound.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
